@@ -1,0 +1,17 @@
+@import 'theme.scss';
+
+/* You can add global styles to this file, and also import other style files */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* /deep/ * {
+    @include font-styles(24px);
+    color: $color-text;
+}
+
+a {
+    text-decoration: none;
+}

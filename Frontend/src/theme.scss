@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+$color-primary: #2A3132;
+$color-secondary: #336B87;
+$color-text: #90AFC5;
+$color-accent: #763626;
+
+@mixin font-styles($size){
+    font-family: 'Roboto', sans-serif;
+    font-size: $size;
+    line-height: 1.5em;
+}

@@ -1,0 +1,21 @@
+@import '../../theme.scss';
+
+div {
+    width: 400px;
+    height: 300px;
+
+    margin: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+
+    background: $color-secondary;
+
+    p {
+        text-align: center;
+        font-size: 36px;
+    }
+}

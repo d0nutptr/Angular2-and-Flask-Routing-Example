@@ -1,0 +1,19 @@
+@import '../../theme.scss';
+
+.container {
+    height: 100%;
+    overflow: hidden;
+    background: $color-primary;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        p {
+            text-align: center;
+            font-size: 36px;
+            margin: 0.5em 0;
+        }
+    }
+}
