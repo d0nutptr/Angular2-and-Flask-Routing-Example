@@ -28,3 +28,5 @@ This should start the server at `localhost:5000`
 
 ----
 If you want to make changes to the Angular 2 code, you can navigate the command line to the `Frontend` folder and execute `ng build`. After executing that, go back to the `Backend` folder and restart the server with `python server.py`. 
+
+If there are any issue where `ng build` did not automatically install the node modules, you can execute `npm install` in the `Frontend` folder and it should automatically install them for you.
